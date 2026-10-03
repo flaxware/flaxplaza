@@ -1,5 +1,5 @@
 # FlaxPlaza
-> We are web 3.
+> Flaxware is bringing evolution into web 3.
 
 <!-- PROJECT LOGO -->
 <br />
@@ -19,7 +19,11 @@
 </div>
 
 <!-- Description -->
-Web 3.0 platform portal with security design first.
+# Advices:
+- Use strong passwords.
+- Minimize spread of personal information.
+- Keep everything structured.
+- Use defense-in-depth techniques.
 
 <!-- MANUAL -->
 This page is all-in-one manual for secure modern web.
@@ -28,7 +32,7 @@ This page is all-in-one manual for secure modern web.
 - [Flaxware portal](https://flaxware.github.io/)
 ### Flax OS:
 - [Flax system](https://github.com/flaxware/flax.system/)
-> We are putting effort to create a single standard.
+> Turn your computer into supercomputer.
 
 ## E-mail and related services:
 ### Proton:
