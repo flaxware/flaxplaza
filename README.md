@@ -4,7 +4,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/flaxware/flax.system">
+  <a href="https://flaxware.github.io">
     <img src="images/logo.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -66,5 +66,18 @@ This page is all-in-one manual for secure modern web.
 - [who.is IP lookup](https://who.is/)
 
 ---
+## Deepweb:
+- [4chan](https://4chan.com)
+
+---
 ## Media:
-- [Picture editing](https://www.photopea.com/)
+### Office:
+- [Proton Docs](https://docs.proton.me/)
+- [Proton Sheets](https://sheets.proton.me/)
+
+### Image:
+- [Image editing](https://www.photopea.com/)
+
+### Audio:
+- [SoundCloud](https://soundcloud.com/)
+- [Code music](https://strudel.cc/)
