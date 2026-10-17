@@ -53,7 +53,7 @@ This page is all-in-one manual for secure modern web.
 ---
 ## Search engines:
 - **[FlaxGo](https://flaxware.github.io/flaxgo)**
-  **[FlaxGo.onion](https://flaxware.github.io/flaxgo.onion)**
+- **[FlaxGo.onion](https://flaxware.github.io/flaxgo.onion)**
 
 ---
 ## Tor:
