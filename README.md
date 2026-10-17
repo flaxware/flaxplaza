@@ -31,7 +31,6 @@ This page is all-in-one manual for secure modern web.
 ---
 ## Flaxware services:
 - **[Flaxware portal](https://flaxware.github.io/)**
-- [FlaxGo](https://flaxware.github.io/flaxgo)
 ### FLAX SYSTEM:
 - [FLAX OS](https://flaxware.github.io/flax.system)
 > Turn your computer into supercomputer.
@@ -54,10 +53,7 @@ This page is all-in-one manual for secure modern web.
 ---
 ## Search engines:
 - **[FlaxGo](https://flaxware.github.io/flaxgo)**
-- [DuckDuckGO onion](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)
-- [Ahmia](https://ahmia.fi/)
-- [WikiLeaks](https://wikileaks.org/)
-- [Reddit](https://www.reddit.com/)
+  **[FlaxGo.onion](https://flaxware.github.io/flaxgo.onion)**
 
 ---
 ## Tor:
@@ -68,7 +64,6 @@ This page is all-in-one manual for secure modern web.
 - [Metadata reader](https://metadataview.com/)
 - [IP trap](https://iplogger.org/)
 - [who.is IP lookup](https://who.is/)
-- [CVE search](https://www.cve.org/)
 
 ---
 ## Media:
