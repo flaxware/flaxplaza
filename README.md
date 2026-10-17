@@ -28,12 +28,15 @@
 <!-- MANUAL -->
 This page is all-in-one manual for secure modern web.
 
+---
 ## Flaxware services:
-- [Flaxware portal](https://flaxware.github.io/)
-### Flax OS:
-- [Flax system](https://github.com/flaxware/flax.system/)
+- **[Flaxware portal](https://flaxware.github.io/)**
+- [FlaxGo](https://flaxware.github.io/flaxgo)
+### FLAX SYSTEM:
+- [FLAX OS](https://flaxware.github.io/flax.system)
 > Turn your computer into supercomputer.
 
+---
 ## E-mail and related services:
 ### Proton:
 - [Proton login](https://account.proton.me/login)
@@ -43,26 +46,30 @@ This page is all-in-one manual for secure modern web.
 > ⬆️PROTON SERVICES⬆️
 - [Temp mail](https://temp-mail.org/en/)
 
+---
 ## AI:
 - [Duck AI](https://duck.ai/)
 - [DeepL AI translator](https://www.deepl.com/en/translator)
 
+---
 ## Search engines:
-- [DuckDuckGO clearnet](https://duckduckgo.com)
+- **[FlaxGo](https://flaxware.github.io/flaxgo)**
 - [DuckDuckGO onion](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/)
 - [Ahmia](https://ahmia.fi/)
-- [Wikipedia](https://www.wikipedia.org/)
 - [WikiLeaks](https://wikileaks.org/)
 - [Reddit](https://www.reddit.com/)
 
+---
 ## Tor:
 - [Check Tor](https://check.torproject.org/)
 
+---
 ## Osint:
 - [Metadata reader](https://metadataview.com/)
 - [IP trap](https://iplogger.org/)
 - [who.is IP lookup](https://who.is/)
 - [CVE search](https://www.cve.org/)
 
+---
 ## Media:
 - [Picture editing](https://www.photopea.com/)
