@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080610">
+  <meta name="description" content="FlaxPlaza — a curated collection of temporary email, OSINT references, privacy tools, and useful web services.">
+  <meta property="og:title" content="FlaxPlaza — Tools for the modern web">
+  <meta property="og:description" content="Temporary mail, OSINT references, privacy tools, and useful web services in one place.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/logo.png">
+  <title>FlaxPlaza — Tools for the modern web</title>
+  <style>
+    :root{color-scheme:dark;--bg:#080610;--panel:rgba(19,12,35,.78);--panel2:rgba(43,19,74,.56);--text:#fbf8ff;--muted:#ccbde0;--quiet:#a28db9;--line:rgba(178,106,255,.34);--green:#39ff14;--purple:#b26aff;--pink:#ed7dff;--content:1160px}
+    *,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px;-webkit-text-size-adjust:100%}body{margin:0;min-width:320px;overflow-x:hidden;color:var(--text);background:radial-gradient(ellipse at 80% 0%,rgba(108,43,173,.22),transparent 42%),radial-gradient(ellipse at 10% 70%,rgba(37,18,67,.2),transparent 40%),var(--bg);font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.container{width:min(var(--content),calc(100% - 48px));margin-inline:auto}.skip-link{position:absolute;left:-9999px;top:8px;z-index:99;padding:10px 14px;background:#fff;color:#111}.skip-link:focus{left:10px}.site-header{position:sticky;top:0;z-index:30;border-bottom:1px solid var(--line);background:rgba(8,6,16,.88);backdrop-filter:blur(20px) saturate(170%);box-shadow:0 6px 32px rgba(0,0,0,.4)}.navbar{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:inline-flex;align-items:center;gap:10px;font-size:1.28rem;font-weight:750;letter-spacing:-.06em;white-space:nowrap}.brand img{width:34px;height:34px;object-fit:contain}.brand-name span{color:var(--pink)}.nav-tools,.nav-links{display:flex;align-items:center;gap:22px}.nav-tools{gap:26px}.nav-links a{color:var(--muted);font-size:.88rem}.nav-links a:hover,.footer-links a:hover{color:var(--text)}.login-button{padding:9px 14px;border:1px solid var(--line);border-radius:8px;color:var(--pink);font-size:.85rem}.hero{position:relative;overflow:hidden;padding:clamp(58px,8vw,100px) 0 52px}.hero::after{content:"";position:absolute;z-index:-1;width:380px;height:380px;right:-110px;top:8%;border:1px solid rgba(178,106,255,.2);border-radius:50%;box-shadow:0 0 0 42px rgba(178,106,255,.025),0 0 0 84px rgba(178,106,255,.02)}.hero-content{max-width:850px}.eyebrow,.section-kicker,.project-number,.tool-tag{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;text-transform:uppercase;letter-spacing:.13em}.eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 18px;color:var(--pink);font-size:.7rem}.live-dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 14px var(--green)}h1{max-width:800px;margin:0;font-size:clamp(3.2rem,8vw,6.8rem);line-height:.96;letter-spacing:-.085em}h1 span,.section-title span,.manifesto-box h2 span{color:var(--pink)}.hero-text{max-width:620px;margin:24px 0 0;color:var(--muted);font-size:1.08rem}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:10px 17px;border-radius:7px;font-size:.88rem;font-weight:650;transition:transform .2s,box-shadow .2s}.button:hover{transform:translateY(-2px)}.button-primary{background:linear-gradient(110deg,#8d4cff,#c16dff);box-shadow:0 12px 28px rgba(139,76,255,.25);color:#fff}.button-secondary{border:1px solid var(--line);color:var(--pink)}.signal-strip{border-block:1px solid var(--line);background:rgba(26,12,44,.44);backdrop-filter:blur(10px)}.signal-inner{display:grid;grid-template-columns:repeat(3,1fr)}.signal{display:flex;align-items:center;gap:12px;padding:17px 18px}.signal+.signal{border-left:1px solid rgba(178,106,255,.2)}.signal-icon{display:grid;place-items:center;width:36px;height:36px;border:1px solid var(--line);border-radius:9px;color:var(--pink);background:rgba(178,106,255,.08);font-size:1.1rem}.signal strong,.signal small{display:block}.signal strong{font-size:.9rem}.signal small{color:var(--quiet);font-size:.75rem}.section{padding:62px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:22px}.section-kicker{margin:0 0 7px;color:var(--pink);font-size:.68rem}.section-title{margin:0;font-size:clamp(2rem,4vw,3rem);line-height:1.08;letter-spacing:-.065em}.section-description{max-width:460px;margin:0;color:var(--muted);font-size:.92rem}.project-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.tool-card{min-width:0;display:flex;flex-direction:column;padding:21px;border:1px solid rgba(178,106,255,.42);border-radius:9px;background:linear-gradient(145deg,rgba(43,19,74,.38),rgba(19,12,35,.82));transition:transform .2s,border-color .2s,background .2s}.tool-card:hover{transform:translateY(-3px);border-color:rgba(214,154,255,.75);background:linear-gradient(145deg,rgba(61,29,96,.52),rgba(19,12,35,.9))}.tool-card.featured{background:linear-gradient(145deg,rgba(104,48,153,.48),rgba(19,12,35,.82))}.tool-tag{align-self:flex-start;margin-bottom:12px;color:var(--pink);font-size:.63rem}.tool-card h3{margin:0 0 8px;font-size:1.15rem;letter-spacing:-.025em}.tool-card p{margin:0;color:var(--muted);font-size:.86rem}.tool-card a{margin-top:16px;color:var(--pink);font-size:.84rem;font-weight:650}.privacy-section{padding-top:18px}.manifesto-box{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center;padding:clamp(22px,4vw,36px);border:1px solid var(--line);border-radius:10px;background:linear-gradient(120deg,rgba(37,19,59,.82),rgba(13,9,22,.86))}.manifesto-box h2{margin:0 0 12px;font-size:clamp(1.7rem,3vw,2.4rem);line-height:1.1;letter-spacing:-.06em}.manifesto-box p{margin:0;color:var(--muted);font-size:.92rem}.checklist{display:grid;gap:10px;margin:0;padding:0;list-style:none}.checklist li{position:relative;padding-left:22px;color:var(--muted);font-size:.88rem}.checklist li::before{content:"✓";position:absolute;left:0;color:var(--green)}.site-footer{border-top:1px solid var(--line);padding:22px 0;color:var(--quiet);font-size:.8rem}.footer-inner{display:flex;justify-content:space-between;gap:20px}.footer-inner p{margin:0}.footer-links{display:flex;gap:18px}.footer-links a{color:var(--pink)}
+    @media(max-width:900px){.navbar{flex-wrap:wrap;padding-block:10px}.nav-links{display:none}.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.section-head{align-items:flex-start;flex-direction:column;gap:10px}}
+    @media(max-width:600px){html{scroll-padding-top:90px}.container{width:calc(100% - 28px)}.navbar{min-height:auto;gap:8px}.brand{font-size:1.1rem}.brand img{width:29px;height:29px}.nav-tools{margin-left:auto}.hero{padding-top:55px}.hero-text{font-size:.98rem}.signal-inner{grid-template-columns:1fr}.signal{padding:11px 8px}.signal+.signal{border-left:0;border-top:1px solid rgba(178,106,255,.2)}.section{padding:48px 0}.project-grid,.manifesto-box{grid-template-columns:1fr}.footer-inner{flex-direction:column;gap:8px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="FlaxPlaza home"><img src="images/logo.png" alt=""><span class="brand-name">flaxplaza<span>.</span></span></a>
+      <div class="nav-tools">
+        <div class="nav-links"><a href="#tools">Tools</a><a href="#email">Temp mail</a><a href="#osint">OSINT</a><a href="#about">About</a></div>
+        <a class="login-button" href="https://flaxware.github.io/" target="_blank" rel="noopener noreferrer">Flaxware ↗</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero" id="home"><div class="container hero-content">
+      <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> SYS://FLAXPLAZA · ONLINE TOOLBOX</p>
+      <h1>Tools for a more <span>private web.</span></h1>
+      <p class="hero-text">Temporary email, OSINT references, privacy services, and useful online tools—curated in one simple place.</p>
+      <div class="hero-actions"><a class="button button-primary" href="#tools">Browse tools ↓</a><a class="button button-secondary" href="https://github.com/flaxware/flaxplaza" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a></div>
+    </div></section>
+
+    <section class="signal-strip" aria-label="FlaxPlaza focus areas"><div class="signal-inner container">
+      <div class="signal"><span class="signal-icon" aria-hidden="true">✉</span><div><strong>Temporary email</strong><small>Quick disposable inboxes</small></div></div>
+      <div class="signal"><span class="signal-icon" aria-hidden="true">⌕</span><div><strong>OSINT resources</strong><small>Public information tools</small></div></div>
+      <div class="signal"><span class="signal-icon" aria-hidden="true">◇</span><div><strong>Privacy &amp; security</strong><small>Practical everyday services</small></div></div>
+    </div></section>
+
+    <section class="section" id="tools"><div class="container">
+      <div class="section-head"><div><p class="section-kicker">// The toolbox</p><h2 class="section-title">Useful links. <span>One plaza.</span></h2></div><p class="section-description">A curated directory of services for communication, search, research, creativity, and a more considered online routine.</p></div>
+      <div class="project-grid">
+        <article class="tool-card featured" id="email"><span class="tool-tag">01 / EMAIL</span><h3>Temporary Mail</h3><p>Use a disposable inbox for low-stakes signups and short-lived testing. Avoid it for sensitive accounts or recovery addresses.</p><a href="https://temp-mail.org/en/" target="_blank" rel="noopener noreferrer">Open Temp Mail ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">02 / EMAIL</span><h3>Proton Mail</h3><p>Private email service for everyday communication and account management.</p><a href="https://account.proton.me/mail" target="_blank" rel="noopener noreferrer">Open Proton Mail ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">03 / PASSWORDS</span><h3>Proton Pass</h3><p>Password manager for creating and organizing unique credentials.</p><a href="https://account.proton.me/pass" target="_blank" rel="noopener noreferrer">Open Proton Pass ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">04 / STORAGE</span><h3>Proton Drive</h3><p>Cloud storage for files and documents with privacy-focused features.</p><a href="https://account.proton.me/drive" target="_blank" rel="noopener noreferrer">Open Proton Drive ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">05 / SEARCH</span><h3>FlaxGo</h3><p>Explore Flaxware's search project and find information across the web.</p><a href="https://flaxware.github.io/flaxgo" target="_blank" rel="noopener noreferrer">Open FlaxGo ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">06 / AI</span><h3>Duck.ai</h3><p>AI chat for general questions and everyday research assistance.</p><a href="https://duck.ai/" target="_blank" rel="noopener noreferrer">Open Duck.ai ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">07 / TRANSLATION</span><h3>DeepL Translator</h3><p>Translate text between languages with a clean, simple interface.</p><a href="https://www.deepl.com/en/translator" target="_blank" rel="noopener noreferrer">Open DeepL ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">08 / DOCUMENTS</span><h3>Proton Docs &amp; Sheets</h3><p>Create and collaborate on online documents and spreadsheets.</p><a href="https://docs.proton.me/" target="_blank" rel="noopener noreferrer">Open Proton Docs ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">09 / CREATIVE</span><h3>Photopea</h3><p>Browser-based image editing for quick creative and design tasks.</p><a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer">Open Photopea ↗</a></article>
+      </div>
+    </div></section>
+
+    <section class="section" id="osint"><div class="container">
+      <div class="section-head"><div><p class="section-kicker">// Open-source research</p><h2 class="section-title">OSINT &amp; <span>network tools.</span></h2></div><p class="section-description">Public-facing services for domain research, metadata inspection, and checking your own connection. Use tools responsibly and respect others' privacy.</p></div>
+      <div class="project-grid">
+        <article class="tool-card"><span class="tool-tag">DOMAIN LOOKUP</span><h3>WHO.IS</h3><p>Look up public domain registration and DNS information.</p><a href="https://who.is/" target="_blank" rel="noopener noreferrer">Open WHO.IS ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">FILE METADATA</span><h3>Metadata Viewer</h3><p>Inspect metadata in your own files and learn what information may be embedded before sharing.</p><a href="https://metadataview.com/" target="_blank" rel="noopener noreferrer">Open Metadata Viewer ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">CONNECTION CHECK</span><h3>Tor Check</h3><p>Check whether your browser is connecting through the Tor network.</p><a href="https://check.torproject.org/" target="_blank" rel="noopener noreferrer">Check Tor connection ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">RESEARCH</span><h3>FlaxGo.onion</h3><p>Flaxware's listed onion-search project. Onion services require Tor Browser to access.</p><a href="https://flaxware.github.io/flaxgo.onion" target="_blank" rel="noopener noreferrer">Visit project page ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">TRACKING AWARENESS</span><h3>IP logging links</h3><p>Tracking links can collect visitor information such as IP addresses. Do not open unfamiliar links, and never use tracking to target people without consent.</p><a href="https://iplogger.org/" target="_blank" rel="noopener noreferrer">Read about the service ↗</a></article>
+        <article class="tool-card"><span class="tool-tag">SAFETY NOTE</span><h3>Research responsibly</h3><p>Stick to public information, verify findings with multiple sources, and avoid accessing accounts, systems, or data without permission.</p><a href="https://github.com/flaxware/flaxplaza" target="_blank" rel="noopener noreferrer">View project notes ↗</a></article>
+      </div>
+    </div></section>
+
+    <section class="section privacy-section" id="about"><div class="container"><div class="manifesto-box">
+      <div><p class="section-kicker">// About FlaxPlaza</p><h2>Make the useful thing.<br><span>Use it thoughtfully.</span></h2><p>FlaxPlaza brings together links and references for a more organized web experience. External services have their own terms and privacy practices; review them before sharing personal information.</p></div>
+      <ul class="checklist"><li>Use strong, unique passwords.</li><li>Keep sensitive accounts off disposable inboxes.</li><li>Minimize unnecessary personal information.</li><li>Use research tools lawfully and with consent.</li></ul>
+    </div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© 2026 FlaxPlaza · Built with curiosity.</p><div class="footer-links"><a href="https://github.com/flaxware/flaxplaza" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://flaxware.github.io/" target="_blank" rel="noopener noreferrer">Flaxware ↗</a></div></div></footer>
+</body>
+</html>
